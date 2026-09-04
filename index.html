@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mini Voting App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>📦 Mini Voting App</h1>
+            <p>What Should We Build Next? 🚀</p>
+        </header>
+
+
+        <main class="voting-container">
+
+            <!-- Mini Game -->
+            <div class="card">
+                <div class="icon">🎮</div>
+
+                <div class="card-content">
+                    <h2>Mini Game</h2>
+
+                    <p>Votes: <span id="gameVotes">0</span></p>
+
+                    <button id="gameBtn">Vote 🎮</button>
+                </div>
+            </div>
+
+
+            <!-- Mini Store -->
+            <div class="card">
+                <div class="icon">🛒</div>
+
+                <div class="card-content">
+                    <h2>Mini Store</h2>
+
+                    <p>Votes: <span id="storeVotes">0</span></p>
+
+                    <button id="storeBtn">Vote 🛒</button>
+                </div>
+            </div>
+
+
+            <!-- To-Do App -->
+            <div class="card">
+                <div class="icon">📝</div>
+
+                <div class="card-content">
+                    <h2>To-Do App</h2>
+
+                    <p>Votes: <span id="todoVotes">0</span></p>
+
+                    <button id="todoBtn">Vote 📝</button>
+                </div>
+            </div>
+
+
+            <!-- Quiz App -->
+            <div class="card">
+                <div class="icon">🧠</div>
+
+                <div class="card-content">
+                    <h2>Quiz App</h2>
+
+                    <p>Votes: <span id="quizVotes">0</span></p>
+
+                    <button id="quizBtn">Vote 🧠</button>
+                </div>
+            </div>
+
+        </main>
+
+
+        <!-- Total Vote -->
+        <section class="result">
+            <h2>Total Votes: <span id="totalVotes">0</span></h2>
+
+            <p id="feedback">   
+                Silakan pilih salah satu pilihan 👆 :v
+            </p>
+        </section>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
